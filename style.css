@@ -1,0 +1,79 @@
+/* Tilt the calculator at an angle */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+body {
+  background-image: url(http://res.cloudinary.com/untouched/image/upload/v1519494531/cup-of-coffee-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  padding: 230px 0;
+}
+
+#calculator { /* positioning in pissin me off */
+/*   text-align: center; */
+/*   margin-top: 250px; */
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 5px 8px 5px;
+  display: inline-block;
+  position: relative;
+/*   left: 839px;
+  top: 340px; */
+  background-color: #39383b;
+}
+
+.top {
+  padding: 8px 4px 0 4px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.middle {
+  padding: 0 4px 0 4px;
+}
+
+.bottom {
+  padding: 0 4px 3px 4px;
+  border-bottom-left-radius: 4px; /* don't know why these styles are not working */ 
+  border-bottom-right-radius: 4px;
+}
+  
+#view { /* TOO DARK */
+/*   background-color: #b5b3ae; Light Grey*/
+  background-color: #474643;
+  text-align: right;
+  padding-right: 8px;
+  border-radius: 2px;
+  color: white;
+  font-size: 35px;
+  font-family: Roboto;
+}
+
+.rows {
+  background-color: #d6d2cb;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  padding: 2px;
+  font-size: 20px;
+  font-family: Roboto;
+  margin-bottom: 3px;
+  background-color: white;
+  border: 1px solid #f5f0e9;
+  border-radius: 5px;
+/*   box-shadow: 2px 2px 5px grey; alternative box shadow
+   */
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover {
+  background-color: #ff6f56;
+  color: white;
+}
+
